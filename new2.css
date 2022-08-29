@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto',sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+ 
+    z-index: 1000;
+    background-color: rgba(248, 247, 247, 0.993);
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10vm;
+    border-bottom: 1px solid #ebe7e7e1;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 600px;
+    display: flex;
+}
+.search-box{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    background: none;
+    border: 1px solid #bdbaba;
+    color: rgb(78, 80, 82);
+}
+.search-box::placeholder{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.sea-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .5s;
+}
+.sea-btn:hover{
+    background-color: #144e36;
+}
+.nav-item a{
+ margin-right: 20px;
+}
+.nav-item a img{
+    width: 30px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px  10vw;
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 20px;
+    color: #383838;
+    opacity: .6;
+    transition: .5s;
+}
+.links a:hover{
+    opacity: 1;
+}
+.he-section{
+    width: 100%;
+    height: 81vh;
+    background-image: url("b10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .he-section h1{
+    font-family: 'Qwitcher Grypen', cursive;
+ text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 120px;
+    text-transform: capitalize;
+    margin: auto;
+
+}
+.he-section .sub-title{
+    text-align: center;
+    color: #740606;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 400px;
+}
+.product{
+    position: relative;
+    padding: 25px 0;
+
+}
+.product .category{
+    padding: 0 50px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
